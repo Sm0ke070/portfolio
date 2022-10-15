@@ -1,0 +1,24 @@
+.jobBlock {
+    display: flex;
+    align-items: center;
+    background-color: #cddafc;
+    min-height: 50vh;
+}
+
+.jobContainer {
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 150px;
+}
+
+.hireMe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a7a7a7;
+    min-height: 25px;
+    min-width: 140px;
+}

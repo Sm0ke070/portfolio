@@ -3,7 +3,7 @@ import style from './Project.module.css'
 
 const Project = ({...props}) => {
     return (
-        <div className={style.project}>
+        <div className={style.projectBlock}>
             <div className={style.imgContainer}>
                 <a href="" className={style.img}>
                     <div>show</div>
