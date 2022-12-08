@@ -1,19 +1,14 @@
 .projectsBlock {
-    min-height: 100vh;
     background-color: #cececd;
-
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-
-
 }
 
 .title {
     background-color: #e7e7e7;
-
 }
 
 .projects {
@@ -22,7 +17,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 @media(max-width: 1005px) {

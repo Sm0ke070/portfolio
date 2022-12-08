@@ -3,6 +3,7 @@ import style from './contacts.module.css'
 import styleContainer from "../common/styles/container.module.css";
 
 const Contacts = () => {
+
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
@@ -11,8 +12,11 @@ const Contacts = () => {
                     <input type="text"/>
                     <input type="text"/>
                     <textarea/>
+                    <button className={style.send}>Отправить</button>
                 </form>
-                <a className={style.send} href="">Отправить</a>
+
+
+
             </div>
 
         </div>
