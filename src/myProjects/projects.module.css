@@ -1,16 +1,21 @@
 .projectsBlock {
-    background-color: #cececd;
+    background-color: #A4D5C3;
 }
-
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
-
 .title {
-    background-color: #e7e7e7;
+    margin: 0 0 30px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: capitalize;
 }
-
+.title h2 {
+    font-weight: 400;
+}
 .projects {
     border: 1px solid;
     width: 100%;
@@ -18,9 +23,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-@media(max-width: 1005px) {
-    .projects{
+@media (max-width: 1005px) {
+    .projects {
         justify-content: center;
     }
 }

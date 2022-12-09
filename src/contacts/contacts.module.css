@@ -1,17 +1,18 @@
-.contactsBlock{
-    background-color: #f7f7b3;
+.contactsBlock {
+    background-color: #9ED0A0;
     height: 60vh;
     display: flex;
     align-items: center;
 }
-.contactsContainer{
+
+.contactsContainer {
     flex-direction: column;
     justify-content: space-around;
     border: 1px solid;
     height: 50%;
 }
 
-.inputBlock{
+.inputBlock {
 
     display: flex;
     flex-direction: column;
@@ -19,7 +20,8 @@
     min-height: 100px;
     width: 350px;
 }
-.send{
+
+.send {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -27,8 +29,9 @@
     min-height: 25px;
     min-width: 140px;
 }
-@media(max-width: 460px) {
-    .inputBlock{
-        width:90%
+
+@media screen and (max-width: 460px) {
+    .inputBlock {
+        width: 90%
     }
 }

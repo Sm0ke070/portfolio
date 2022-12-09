@@ -1,8 +1,14 @@
-.header{
-    background-color: #aac6ff;
+.header {
+    background-color: #b5dbe6;
     height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
+
+@media screen  and (max-width: 500px) {
+    .header {
+        justify-content: center;
+    }
+}
+
