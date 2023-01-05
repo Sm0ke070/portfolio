@@ -1,0 +1,71 @@
+@import '../../common/styles/sass/variables';
+
+.projectBlock {
+  border: 1px solid;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #dcdbdb;
+  margin-bottom: 15px;
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 550px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.3;
+    }
+
+
+    .viewBtn {
+      display: flex;
+      padding: 10px 20px;
+      background-color: #dce1fb;
+      font-family: 'Josefin Sans', sans-serif;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectTitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+      line-height: 1.2;
+    }
+
+    .description {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.8;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}
+
+
+
+
+
+
+
+

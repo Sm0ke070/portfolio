@@ -1,17 +1,23 @@
 import React from 'react';
-import style from './Project.module.css'
+import style from './Project.module.scss'
 
-const Project = ({...props}) => {
+type ProjectPropsType = {
+    title: string
+    description: string
+    style: {}
+}
+
+const Project = (props: ProjectPropsType) => {
     return (
         <div className={style.projectBlock}>
-            <div className={style.imgContainer}>
-                <a href="" className={style.img}>
-                    <div>show</div>
+            <div className={style.image} style={props.style}>
+                <a href="" className={style.viewBtn}>
+                    show
                 </a>
             </div>
-            <div className={style.title}>
-                <h4>{props.title}</h4>
-                <span>Кратко расскажите суть своего проекта так, чтобы, прочитав вступление, спонсор уже был готов поддержать вашу идею.</span>
+            <div className={style.projectInfo}>
+                <h3 className={style.projectTitle}>{props.title}</h3>
+                <span className={style.description}>{props.description}</span>
             </div>
         </div>
     );
