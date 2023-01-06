@@ -4,7 +4,7 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./myProjects/Projects";
-import Job from "./Job/Job";
+import Job from "./job/Job";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 
