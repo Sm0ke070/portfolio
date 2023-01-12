@@ -13,7 +13,7 @@ const Projects = () => {
     }
     const todo = {
         backgroundImage: `url(${todoImage})`
-    }
+}
 
     return (
         <div className={style.projectsBlock}>

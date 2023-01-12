@@ -1,0 +1,34 @@
+@import "src/common/styles/sass/variables";
+
+.footerBlock {
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+  background-color: $bgSecondColor;
+
+  .footerContainer {
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .socialNetwork {
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media(max-width: 380px) {
+        width: 200px;
+      }
+
+      .socialNetworkBlock {
+        width: 55px;
+        height: 50px;
+        background-color: #a3a3a3;
+        @media(max-width: 380px) {
+          width: 35px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

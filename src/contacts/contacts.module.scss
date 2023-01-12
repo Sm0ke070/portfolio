@@ -1,0 +1,38 @@
+@import "src/common/styles/sass/variables";
+
+.contactsBlock {
+  background-color: $bgColor;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+
+  .contactsContainer {
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid;
+    height: 50%;
+
+    .inputBlock {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100px;
+      width: 350px;
+      @media screen and (max-width: 460px) {
+        width: 90%
+      }
+
+      .sendBtn {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #a7a7a7;
+        min-height: 25px;
+        min-width: 140px;
+      }
+    }
+  }
+}
+
+
+

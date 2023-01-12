@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 .projectBlock {
   border: 1px solid;
@@ -31,7 +32,6 @@
       opacity: 0.3;
     }
 
-
     .viewBtn {
       display: flex;
       padding: 10px 20px;
@@ -46,18 +46,14 @@
     padding: 25px 20px;
 
     .projectTitle {
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 16px;
-      letter-spacing: 1px;
+      @include text($titleFontFamily, 16px, 1.2, 1px);
       margin: 0 0 5px;
-      line-height: 1.2;
+
     }
 
     .description {
-      font-family: 'Poppins', sans-serif;
-      line-height: 1.8;
+      @include text($textFontFamily, 14px, 1.8, 1px);
       font-weight: 400;
-      font-size: 14px;
     }
   }
 }
